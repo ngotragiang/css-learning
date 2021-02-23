@@ -1,0 +1,399 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+.all{
+	width: 1500px;
+	background-color: #FAFAFA;
+}
+.sections{
+	width: 1300px;
+	display: inline-block;
+	margin: 100px;
+}
+.sections .a1{
+	font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 150px;
+}
+.sections .a1:hover{
+	transform: skew(8deg, 3deg);
+	transition: all .1s;
+	text-shadow: 15px 15px 10px #D8D8D8;
+	z-index: 1;
+}
+.sections .a2{
+	width: 100%;
+	display: flex;
+}
+.sections .a2 .b1{
+	width: 50%;
+	padding: 50px;
+}
+.sections .a2 .b1 .c1 p:first-child{
+	font-size: 20px;
+	padding: 20px 0 20px 0;
+}
+.sections .a2 .b1 .c1 p:last-child{
+	font-size: 15px;
+}
+.sections .a2 .b1 .c2 a{
+	font-size: 18px;
+	color: green;
+	text-decoration: underline;
+}
+.sections .a2 .b1 .c2 a:hover{
+	background: green;
+	color: white;
+	text-decoration: none;
+	padding: 8px 5px;
+}
+.sections .a2 .b2{
+	width: 50%;
+	margin-top: 50px;
+	position: relative;
+}
+.sections .a2 .b2 .c{
+	position: absolute;
+	left: 10px;
+    top: 20px;
+    z-index: 1;
+}
+.sections .a2 .b2 .c:hover{
+	transform: scale(1.1,1.1);
+	transition: all 0.4s;
+	border: 0px solid white;
+	outline: 12px solid green;
+	outline-offset: 15px;
+	z-index: 4;
+}
+.sections .a2 .b2 .cc{
+	position: absolute;
+	right: 100px;
+    top: 80px;
+    z-index: 2;
+}
+.sections .a2 .b2 .cc:hover{
+	transform: scale(1.1,1.1);
+	transition: all 0.4s;
+	border: 0px solid white;
+	outline: 12px solid green;
+	outline-offset: 15px;
+	z-index: 4;
+}
+.sections .a2 .b2 .ccc{
+	position: absolute;
+	left: 130px;
+    top: 150px;
+    z-index: 3;
+}
+.sections .a2 .b2 .ccc:hover{
+	transform: scale(1.1,1.1);
+	transition: all 0.4s;
+	border: 0px solid white;
+	outline: 12px solid green;
+	outline-offset: 15px;
+	z-index: 4;
+}
+
+
+
+.main-3 .content{
+	position: absolute;
+	top: 1570px; 
+	left: 100px; 
+	width: 100%; 
+	display: flex;
+}
+.main-3 .content .text{
+	width: 15%;
+	margin: 50px;
+	padding: 30px;
+	font-size: 20px;
+	background: #fff;
+	color: gray;
+	opacity: 0.8;
+}
+.main-3 .content .text:hover{
+	transform: translate(0,-12px);
+	transition: all 0.4s;
+	width: 230px;
+}
+.main-3 .content .text .text-1{
+	padding-bottom: 14px;
+	font-size: 18px;
+}
+.main-3 .content .text .text-2{
+	font-size: 17px;
+}
+
+
+.main-4 .big-text{
+	font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 100px 0 50px 550px;
+    z-index: 2;
+}
+.main-4 .big-text:hover{
+	transform: skew(8deg, 3deg);
+	transition: all .1s;
+	text-shadow: 15px 15px 10px #D8D8D8;
+	z-index: 1;
+}
+.main-4 .frame{
+	display: flex;
+	margin-left: 230px;
+}
+.main-4 .frame .frame-1{
+	margin: 25px;
+	background: #EFFBEF;
+	box-shadow: 0px 0px 10px #D8D8D8;
+}
+.main-4 .frame .frame-1 img{
+	position: relative; 
+	background-size: cover; 
+	background-image: linear-gradient(to right bottom, 
+		rgba(126,213,111,0.8), 
+		rgba(40,180,133,0.8));
+	width: 300px; 
+	clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%); 
+	background-color: green;
+}
+.main-4 .frame .frame-1 .text-img1{
+	position: absolute;
+	left: 380px;
+    top: 2450px;
+    font-size: 25px;
+}
+.main-4 .frame .frame-1 .text-img1 p{
+    text-transform: uppercase;
+    background-image: linear-gradient(to right bottom, 
+		rgba(255,185,0,0.85), 
+		rgba(255,119,48,0.85));
+    color: #fff;
+    padding: 5px 10px;
+    margin: -6px;
+}
+.main-4 .frame .frame-1 .text-img1 p:first-child{
+	text-align: right;
+}
+.main-4 .frame .frame-1 .text-img2{
+	position: absolute;
+	left: 710px;
+    top: 2450px;
+    font-size: 25px;
+}
+.main-4 .frame .frame-1 .text-img2 p{
+    text-transform: uppercase;
+    background-image: linear-gradient(to right bottom, 
+		rgba(126,213,111,0.85), 
+		rgba(40,180,133,0.85));
+    color: #fff;
+    padding: 5px 10px;
+    margin: -6px;
+}
+.main-4 .frame .frame-1 .text-img2 p:last-child{
+	text-align: right;
+}
+.main-4 .frame .frame-1 .text-img3{
+	position: absolute;
+	left: 1045px;
+    top: 2450px;
+    font-size: 25px;
+}
+.main-4 .frame .frame-1 .text-img3 p{
+    text-transform: uppercase;
+    background-image: linear-gradient(to right bottom, 
+		rgba(41,152,255,0.85), 
+		rgba(86,67,250,0.85));
+    color: #fff;
+    padding: 5px 10px;
+    margin: -6px;
+}
+.main-4 .frame .frame-1 .text-img3 p:first-child{
+	text-align: right;
+}
+.main-4 .frame .frame-1 .text-main-4 p{
+	padding: 15px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	margin: 0 50px;
+	font-size: 14px;
+	color: gray;
+}
+.main-4 .frame .frame-1 .text-main-4 p:last-child{
+	border: none;
+}
+
+
+/* anh thấy 2 nút trên và dưới đều giống nhau, chỉ khác mỗi màu
+	nên anh tách phần giống nhau ra 1 class .btn
+ 	*/
+
+.btn {
+	width: 230px; 
+	height: 60px;
+	border-radius: 30px;
+  	color: gray; 
+	font-size: 15px; 
+	margin-left: 80px;
+	padding: 15px 20px;
+	position: relative;
+	z-index: 2;
+}
+
+
+.btn-green {
+	background-color: #55c57a;
+	margin-left: 670px;
+	color: white;
+}
+
+.btn-white,
+.btn-white-2
+{
+	background: white;
+}
+
+.btn::after {
+	/* cái ::after với ::before phải có thuộc tính content nhé :v  */
+	content: "";
+	width: 100%;
+	height: 100%;
+    /*display: inline-block; */
+    /*nó phải là thẻ block thì mới set được widht height*/
+    /*nãy thẻ span là thẻ inline nên a ko set được width height :v ;*/
+    /*background: red;*/
+
+    /*set position bằng absolute thì nhớ set postion relative cho element cha */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* cái này để set thời gian hiệu ứng chạy */
+    transition: all .4s;
+
+    /*cái thẻ này phải ở bên dưới thì mới nhìn thấy chữ, a set z-index nhỏ hơn thẻ .btn-white*/
+    z-index: -1;
+    /*giờ chỉnh lại thẻ này*/
+    border-radius: 30px;
+}
+
+
+/* style tạm để nó hiện ra xng rồi mình sửa sau */
+/* span là loại thẻ inline nên không set được width height :)) ; */
+/* phải chuyển về display: inline-block; ; */
+.fake-animation,
+.btn-white-2::after {
+	background: white;
+}
+
+
+.btn-green::after {
+	background: #55c57a;
+}
+
+
+/* hover vào button-white thì style cho .fake-animation */
+.btn-white:hover .fake-animation,
+.btn:hover::after {
+	/* cái này để phóng to .fake-animation */
+	/* phóng to được rồi, giờ làm cho nó mượt */
+	transform: scaleX(1.6) scaleY(1.4);
+	/*cái nut của anh khi hover vào nó mờ đi, nên a set thêm opacity nữa*/
+	opacity: 0;
+}
+
+/* khi viết ::after thì html sẽ thêm 1 element ::after vào, mình style cho element ::after như bình thường; ; */
+
+
+/* được rồi đấy */
+/* nhưng cái này mình phải tạo thêm 1 thẻ span */
+/* có cách khác không cần tạo thêm thẻ */
+/* em dùng ::before, ::after;  thay cho thẻ span kia */
+
+
+
+
+
+/* em nắm được chưa */
+/*choỗ dúng span hiểu chưa
+span hieu chuwakhi 
+a gọi nói chuyện cho dẽ nhé :))
+a tao cho nut o duoi di
+ok*/
+
+
+/* cái before after thực ra chỉ là tạo thêm 1 thẻ trong html thôi,*/
+/* em inspect vào html sẽ thấy ::after, ::before, xong mình style giống hệt thẻ span*/
+
+
+/*ok chưa*/
+
+/*k biet nen noi ok hay chua ok :)))
+giờ làm bằng thẻ span thì ok đúng không
+ok a
+*/
+
+/* cái naigation_icon của anh cũng dùng before after, em làm lại xem được không nhé*/
+/* làm cái nút ấy thôi, chưa cần làm cái menu khi bấm vào */
+/* 3 sọc, 1 cái là thẻ chính, 2 cái còn lại là before after */
+
+
+
+
+
+.navigation_icon{
+	position: fixed;
+ 	top: 30px;
+  	right: 30px;
+  	font-weight: bold;
+  	border: 1px solid #fff;
+  	border-radius: 36px;
+  	padding: 35px 18px 33px;
+  	background: #fff;
+  	z-index: 2;
+  	box-shadow: 0px 0px 10px #D8D8D8;
+}
+.navigation_icon::before{
+	content: " ";
+	position: absolute;
+    top: 26px;
+    right: 18px;
+    transition: all .2s;
+    z-index: 1;
+}
+.navigation_icon::after{
+	content: " ";
+	position: absolute;
+    top: 45px;
+    right: 18px;
+    transition: all .2s;
+    z-index: 1;
+}
+.navigation_icon::before, .navigation_icon::after {
+    width: 3rem;
+    height: 1.5px;
+    background-color: #333;
+    display: inline-block;
+}
+.navigation_icon:hover::before{
+	transform: translate(0px,-5px);
+}
+.navigation_icon:hover::after{
+	transform: translate(0px,5px);
+}
